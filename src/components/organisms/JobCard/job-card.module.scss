@@ -1,0 +1,11 @@
+@use '../../../scss/tailwind-directives.scss';
+@use '../../../scss/abstracts/' as colors;
+@use '../../../scss/abstracts/fonts' as fonts;
+
+@layer components {
+  .div_job_card {
+    background-color: colors.$color-card;
+    border: colors.$color-card-border solid;
+    @apply border;
+  }
+}

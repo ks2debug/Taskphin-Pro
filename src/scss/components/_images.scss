@@ -1,0 +1,7 @@
+@use '../../scss/tailwind-directives.scss';
+
+@layer components {
+  .image {
+    @apply w-10 object-contain rounded;
+  }
+}

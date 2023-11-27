@@ -1,0 +1,24 @@
+@use '../../scss/tailwind-directives.scss';
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/fonts' as fonts;
+
+@layer components {
+  .button {
+    background-color: colors.$color-primary;
+    color: colors.$color-font-white;
+    font-family: fonts.$font-family-Poppins;
+    @apply px-3 py-2 rounded text-xs;
+  }
+
+  .button_solid {
+    @extend .button;
+  }
+
+  .button_outline {
+    @extend .button;
+    background-color: colors.$color-card;
+    border: colors.$color-primary solid;
+    color: colors.$color-primary;
+    @apply border;
+  }
+}

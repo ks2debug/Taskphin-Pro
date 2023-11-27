@@ -1,0 +1,16 @@
+@use '../../scss/tailwind-directives.scss';
+@use '../../scss/abstracts/colors' as colors;
+@use '../../scss/abstracts/fonts' as fonts;
+
+@layer components {
+  .input {
+    color: colors.$color-font-dark;
+    font-family: fonts.$font-family-Poppins;
+    border: colors.$color-card-border solid;
+    @apply w-full border text-xs px-3 py-2 rounded;
+  }
+
+  .input_global {
+    @extend .input;
+  }
+}

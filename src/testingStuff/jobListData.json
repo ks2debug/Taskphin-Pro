@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "company_logo": "",
+      "title": "UX Ul Designer",
+      "company_name": "Great Vibes - Information Technology",
+      "location": "Chennai, Tamilnadu, India (in-office)",
+      "time": "Part-Time (9.00 am - 5.00 pm IST)",
+      "experience_required": "Experience (1 - 2 years)",
+      "package": "INR (₹) 30,000 - 60,000 / Month",
+      "company_size": "51-200 employees",
+      "apply_now": true
+    },
+    {
+      "id": "2",
+      "company_logo": "",
+      "title": "Developer",
+      "company_name": "Great Vibes - Information Technology",
+      "location": "Chennai, Tamilnadu, India (in-office)",
+      "time": "Part-Time (9.00 am - 5.00 pm IST)",
+      "experience_required": "Experience (1 - 2 years)",
+      "package": "INR (₹) 50,000 - 70,000 / Month",
+      "company_size": "51-200 employees",
+      "apply_now": false
+    },
+    {
+      "id": "3",
+      "company_logo": "",
+      "title": "Interaction Designer",
+      "company_name": "Great Vibes - Information Technology",
+      "location": "Chennai, Tamilnadu, India (in-office)",
+      "time": "Part-Time (9.00 am - 5.00 pm IST)",
+      "experience_required": "Experience (1 - 2 years)",
+      "package": "INR (₹) 30,000 - 50,000 / Month",
+      "company_size": "51-200 employees",
+      "apply_now": false
+    },
+    {
+      "id": "4",
+      "company_logo": "",
+      "title": "SEO Analyst",
+      "company_name": "Great Vibes - Information Technology",
+      "location": "Chennai, Tamilnadu, India (in-office)",
+      "time": "Part-Time (9.00 am - 5.00 pm IST)",
+      "experience_required": "Experience (1 - 2 years)",
+      "package": "INR (₹) 30,000 - 50,000 / Month",
+      "company_size": "51-200 employees",
+      "apply_now": true
+    }
+  ]
+}

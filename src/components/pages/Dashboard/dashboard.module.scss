@@ -1,0 +1,9 @@
+@use '../../../scss/tailwind-directives.scss';
+@use '../../../scss/abstracts/colors' as colors;
+@use '../../../scss/abstracts/fonts' as fonts;
+
+@layer components {
+  .div_job_list {
+    background-color: colors.$color-job-list;
+  }
+}
