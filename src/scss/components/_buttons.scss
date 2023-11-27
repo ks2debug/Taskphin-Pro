@@ -12,6 +12,9 @@
 
   .button_solid {
     @extend .button;
+    &:hover {
+      background-color: darken($color: colors.$color-primary, $amount: 5%);
+    }
   }
 
   .button_outline {
@@ -20,5 +23,8 @@
     border: colors.$color-primary solid;
     color: colors.$color-primary;
     @apply border;
+    &:hover {
+      background-color: darken($color: colors.$color-card, $amount: 3%);
+    }
   }
 }
